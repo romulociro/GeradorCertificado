@@ -43,7 +43,6 @@ $ node app.js
 # O servidor inciará na porta:8081
 
 # Modelo de Requisição
-```
 curl --location --request POST 'localhost:8081/certificado' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -51,10 +50,9 @@ curl --location --request POST 'localhost:8081/certificado' \
     "data": {
     "name": "Curso de Java",
     "date": "17/08/2022",
-    "studentname": "Joquim"
+    "studentname": "Joaquim"
     }
 }'
-```
 
 ### 🛠 Tecnologias
 
