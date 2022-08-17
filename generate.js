@@ -32,6 +32,12 @@ async function generateTemplate(templateModel) {
 
 async function downloadTemplate (templateURL) {  
 	const url = templateURL
+	const pathTemplates = "./templates"
+	//Verifica se não existe a pasta templates
+	if (!fs.existsSync(pathTemplates)){
+    //Efetua a criação do diretório
+    fs.mkdirSync(pathTemplates);
+	}	
 	const path = Path.resolve(__dirname, 'templates', 'template.hbs')
 	const writer = fs.createWriteStream(path)
 
