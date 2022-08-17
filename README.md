@@ -1,9 +1,7 @@
 <h1 align="center">Gerador de Certificado</h1>
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
+ <a href="#roadmap">Requisitos</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#licenc-a">Licença</a> •
  <a href="#autor">Autor</a>
 </p>
 
@@ -16,7 +14,7 @@
 - [x] Fazer download do template
 - [x] Criar PDF
 
-### Pré-requisitos
+### [Pré-requisitos](#roadmap)
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/)
@@ -56,7 +54,7 @@ curl --location --request POST 'localhost:8081/certificado' \
 ```
 
 
-### 🛠 Tecnologias
+### 🛠 [Tecnologias](#tecnologias)
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -64,3 +62,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Handlebars](https://handlebarsjs.com/)
 - [Puppeteer](https://github.com/puppeteer/puppeteer)
 - [Axios](https://github.com/axios/axios)
+
+
+### [Autor](#autor)
+Rômulo Ciro
