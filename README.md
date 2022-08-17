@@ -26,11 +26,8 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 # Clone este repositório
 $ git clone <https://github.com/romulociro/GeradorCertificado>
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd app-to-do
-
-# Vá para a pasta backend
-$ cd backend
+# Vá para a pasta GeradorCertificado
+$ cd GeradorCertificado
 
 # Instale as dependências
 $ npm install
